@@ -26,3 +26,18 @@ Although the manual doesn't quite clearly point out, GNU Make doesn't really com
 * [shell - Can GNU make handle filenames with spaces? - Stack Overflow](https://stackoverflow.com/questions/9838384/can-gnu-make-handle-filenames-with-spaces#9838604)
 
 While there *are* workarounds but it is still too fragile to deal with not even thinking about Automake and it's friends.
+
+### Doesn't Support Source Tree Directoryname With Spaces
+Although the manual doesn't quite clearly point out, GNU Build System doesn't really compatible with directorynames with space character(s).
+
+#### Configurations That Will Trigger The Issue
+* /home/user/projects/my-project/Source Code/main.c
+
+#### References
+* [Re: should a space really be a "special character" ?](https://lists.gnu.org/archive/html/autoconf/2005-07/msg00014.html)
+
+	> -** The configure command now diagnoses attempts to use a working or source
+	> -  directory whose name contains a special character like space, newline, or "\".
+	> -  Such names are not supported, and can cause "configure" to crash.
+
+	
