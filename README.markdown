@@ -40,4 +40,6 @@ Although the manual doesn't quite clearly point out, GNU Build System doesn't re
 	> -  directory whose name contains a special character like space, newline, or "\".
 	> -  Such names are not supported, and can cause "configure" to crash.
 
-	
+## Some Compability Issues Need To Keep In Mind Of
+### Built Aritfacts Filename With Hyphens In Makefile.am
+Hyphens needs to be escaped as underscores in Makefile.am
