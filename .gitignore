@@ -18,3 +18,8 @@ Makefile*
 
 ## Automatically generated configure script by Autoconf
 /configure
+
+## Automatically installed files by autoreconf
+/compile
+/install-sh
+/missing
