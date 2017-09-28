@@ -7,6 +7,10 @@ This intellectual property is licensed under GNU Generic Public License version 
 
 ## Obstacles For Projects To Adopt The GNU Build System
 ### Doesn't Support Source Code Filename With Spaces
+#### Configurations That Will Trigger This Issue
+* /home/user/projects/my-project/Source_Code/Hello World.c
+
+#### Explanation
 Although the manual doesn't quite clearly point out, GNU Make doesn't really compatible with filenames with space character(s).  The following is a few location that mentions this issue:
 
 * GNU Automake Manual - FAQ - Limitations on File Names  
