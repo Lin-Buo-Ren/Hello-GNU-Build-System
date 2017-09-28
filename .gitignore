@@ -7,3 +7,7 @@ Hello-GNU-Build-System
 ## Automatically generated Makefiles
 Makefile*
 !Makefile.am
+
+## M4 Cache
+## What is autom4te.cache? - FAQ - Autoconf <https://www.gnu.org/software/autoconf/manual/autoconf-2.60/html_node/autom4te_002ecache.html>
+/autom4te.cache/
