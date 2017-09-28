@@ -9,3 +9,6 @@
 #   * GNU Automake Manual (optional)
 #   * texinfo: (autoconf)Autoconf Macro Index
 #   * texinfo: (automake)Macro Index
+## Initialize Autoconf
+AC_INIT([Hello GNU Build System], [0.0.1], [https://github.com/Lin-Buo-Ren/Hello-GNU-Build-System/issues])
+
