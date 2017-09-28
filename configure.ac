@@ -21,7 +21,7 @@ AC_PROG_CC
 ## The ‘AC_CONFIG_FILES’ macro declares the list of files that ‘configure’ should create from their ‘*.in’ templates.  Automake also scans this list to find the ‘Makefile.am’ files it must process
 AC_CONFIG_FILES([
 	Makefile
-	"Source Code/Makefile"
+	Source_Code/Makefile
 ])
 
 ## ‘AC_OUTPUT’ line is a closing command that actually produces the part of the script in charge of creating the files registered with ‘AC_CONFIG_HEADERS’ and ‘AC_CONFIG_FILES’
