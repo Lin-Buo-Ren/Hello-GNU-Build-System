@@ -18,3 +18,9 @@ AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 ## Let ‘configure’ script to search for a C compiler and define the variable ‘CC’ with its name
 AC_PROG_CC
 
+## The ‘AC_CONFIG_FILES’ macro declares the list of files that ‘configure’ should create from their ‘*.in’ templates.  Automake also scans this list to find the ‘Makefile.am’ files it must process
+AC_CONFIG_FILES([
+	Makefile
+	"Source Code/Makefile"
+])
+
