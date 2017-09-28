@@ -3,3 +3,7 @@
 ## Built executables
 *.executable
 Hello-GNU-Build-System
+
+## Automatically generated Makefiles
+Makefile*
+!Makefile.am
