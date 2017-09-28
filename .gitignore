@@ -15,3 +15,6 @@ Makefile*
 ## Automatically generated files by configure program
 /config.log
 /config.status
+
+## Automatically generated configure script by Autoconf
+/configure
