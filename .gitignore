@@ -23,3 +23,6 @@ Makefile*
 /compile
 /install-sh
 /missing
+
+## Automatically installed files by Automake
+/depcomp
