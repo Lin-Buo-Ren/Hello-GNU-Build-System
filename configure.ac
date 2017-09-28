@@ -15,3 +15,6 @@ AC_INIT([Hello GNU Build System], [0.0.1], [https://github.com/Lin-Buo-Ren/Hello
 ## Initialize Automake
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
+## Let ‘configure’ script to search for a C compiler and define the variable ‘CC’ with its name
+AC_PROG_CC
+
