@@ -24,3 +24,5 @@ AC_CONFIG_FILES([
 	"Source Code/Makefile"
 ])
 
+## ‘AC_OUTPUT’ line is a closing command that actually produces the part of the script in charge of creating the files registered with ‘AC_CONFIG_HEADERS’ and ‘AC_CONFIG_FILES’
+AC_OUTPUT
