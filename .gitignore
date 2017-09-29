@@ -16,8 +16,9 @@ Makefile*
 /autom4te.cache/
 
 ## Automatically generated files by configure program
-/config.log
-/config.status
+## Not restricted to root directory due to VPATH builds
+config.log
+config.status
 
 ## Automatically generated configure script by Autoconf
 /configure
