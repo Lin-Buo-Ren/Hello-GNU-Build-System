@@ -36,3 +36,5 @@ config.status
 ## Credit and documentation: A. Duret-Lutz - Using GNU Autotools - Preparing the Package
 /aclocal.m4
 
+## Automatically generated dependency tracking data
+.deps/
