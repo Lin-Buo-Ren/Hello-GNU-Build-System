@@ -26,3 +26,9 @@ Makefile*
 
 ## Automatically installed files by Automake
 /depcomp
+
+## Definitions for third-party macros used in configure.ac
+## Also automatically generated, so ignore it until we really used it
+## Credit and documentation: A. Duret-Lutz - Using GNU Autotools - Preparing the Package
+/aclocal.m4
+
