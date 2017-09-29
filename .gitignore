@@ -4,6 +4,9 @@
 *.executable
 Hello-GNU-Build-System
 
+## Built object code files
+*.o
+
 ## Automatically generated Makefiles
 Makefile*
 !Makefile.am
