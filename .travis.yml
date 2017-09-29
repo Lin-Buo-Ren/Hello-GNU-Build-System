@@ -105,7 +105,8 @@ before_cache: true
 after_failure: true
 
 ### Commands if build phase successes
-after_success: true
+after_success:
+- Hello-GNU-Build-System
 
 before_deploy: true
 
