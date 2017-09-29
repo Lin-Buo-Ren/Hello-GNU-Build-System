@@ -10,7 +10,7 @@
 #   * texinfo: (autoconf)Autoconf Macro Index
 #   * texinfo: (automake)Macro Index
 ## Initialize Autoconf
-AC_INIT([Hello GNU Build System], [0.0.1], [https://github.com/Lin-Buo-Ren/Hello-GNU-Build-System/issues])
+AC_INIT([Hello GNU Build System], [1.0.0], [https://github.com/Lin-Buo-Ren/Hello-GNU-Build-System/issues])
 
 ## Initialize Automake
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
