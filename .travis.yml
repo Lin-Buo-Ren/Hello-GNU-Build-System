@@ -88,7 +88,7 @@ before_script: true
 ### Put your build scripts here
 script:
 - autoreconf --install
-- ./configure --prefix="${HOME}" --disable-dependency-tracking # one time build
+- ./configure --prefix="${HOME}" --disable-dependency-tracking # faster one time build
 - make
 - make install
 
