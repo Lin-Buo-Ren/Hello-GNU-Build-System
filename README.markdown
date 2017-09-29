@@ -11,8 +11,12 @@ This intellectual property is licensed under GNU Generic Public License version 
 * /home/user/projects/my-project/src/Hello World.c
 
 #### Explanation
-Although the manual doesn't quite clearly point out, GNU Make doesn't really compatible with filenames with space character(s).  The following is a few location that mentions this issue:
+Although the manual doesn't quite clearly point out, GNU Make(and thus, Automake and Autoconf etc.) doesn't really compatible with filenames with space character(s) due to space been specify as the filename separator.
 
+#### Workaround
+Don't use source filenames with spaces.
+
+#### References
 * GNU Automake Manual - FAQ - Limitations on File Names  
 	```
 		Portable packages should limit themselves to POSIX file names. These can contain ASCII letters and digits, ‘_’, ‘.’, and ‘-’. File names consist of components separated by ‘/’. File name components cannot begin with ‘-’.
