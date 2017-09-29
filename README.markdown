@@ -1,6 +1,7 @@
 # Hello GNU Build System
 This is a starter project for learning GNU Build System and its features and constraints.  
-&lt;<https://github.com/Lin-Buo-Ren/Hello-GNU-Build-System>&gt;
+&lt;<https://github.com/Lin-Buo-Ren/Hello-GNU-Build-System>&gt;  
+[![Build Status of the latest snapshot on Travis CI](https://travis-ci.org/Lin-Buo-Ren/Hello-GNU-Build-System.svg?branch=master)](https://travis-ci.org/Lin-Buo-Ren/Hello-GNU-Build-System)
 
 ## License
 This intellectual property is licensed under GNU Generic Public License version 3, and other recent versions you like.
